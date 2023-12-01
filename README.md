@@ -1,2 +1,2 @@
 # EmailWebScraper
-Starts off on my college's website home page and combs the internet looking emails and puts them in a database. The goal was to collect 10,000 emails. Mine was the fastest; I collected them in around 6 minutes
+This project is an web scraper that scrapes the web looking for email addresses starting from touro.edu (my college). The program finds all the links on a webpage and stores them in a Queue, and puts the email addresses in a Set to avoid duplicates. When finished with a given webpage, the program goes the the link in the Queue and so on, till we've collected 10,000 email addresses. At the end, the email addresses are then sent to a database. The whole program took only 6 minutes!
